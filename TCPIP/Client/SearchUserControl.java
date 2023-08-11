@@ -1,5 +1,3 @@
-package Client;
-
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.ObjectInputStream;
@@ -40,7 +38,7 @@ public class SearchUserControl {
 							searchUserFrame.showUser(userSearch);
 						}
 					}
-
+					
 					clientSocket.close();
 
 				} catch (Exception e2) {

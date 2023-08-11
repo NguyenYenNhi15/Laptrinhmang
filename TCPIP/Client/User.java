@@ -1,4 +1,3 @@
-package Client;
 import java.io.Serializable;
 
 public class User implements Serializable {
@@ -9,8 +8,8 @@ public class User implements Serializable {
 	private String birthday;
 	private String sex;
 	private String description;
-
-
+	
+	
 	public User(String userName, String password, String address, String birthday, String sex, String description) {
 		super();
 		this.userName = userName;
@@ -56,5 +55,5 @@ public class User implements Serializable {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-
+	
 }

@@ -1,9 +1,17 @@
-package Client;
-
-import javax.swing.*;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
-import java.awt.*;
+import java.awt.GridBagLayout;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+
+import java.awt.GridBagConstraints;
+import javax.swing.JTextField;
+import java.awt.Insets;
 import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.SwingConstants;
 
 public class AddNewUserFrame extends JFrame {
 

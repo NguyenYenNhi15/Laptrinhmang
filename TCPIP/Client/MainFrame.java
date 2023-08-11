@@ -1,12 +1,18 @@
-package Client;
+import java.awt.EventQueue;
 
-import javax.swing.*;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
-import java.awt.*;
+import java.awt.GridLayout;
 import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
 
 public class MainFrame extends JFrame {
 
+	/**
+	 * 
+	 */
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 	private JButton btnSearch;
